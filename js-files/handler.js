@@ -1,4 +1,5 @@
 var xhr = new XMLHttpRequest();
+xhr.setRequestHeader('Access-Control-Allow-Origin', '*');
 xhr.open('GET', 'https://raw.githubusercontent.com/error-magnet/optimize/master/js-files/ga.js');
 xhr.onload = function() {
     if (xhr.status === 200) {
