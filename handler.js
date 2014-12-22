@@ -1,4 +1,4 @@
-var worker = new Worker('ga.js');
+var worker = new Worker('/workers/ga.js');
 
 worker.postMessage();
 
