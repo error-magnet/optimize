@@ -10,7 +10,6 @@ xhr.onload = function() {
             
             var worker = new Worker(workerBlobURL);
 			
-			var worker = new Worker('ga.js');
 
 			worker.postMessage();
 
